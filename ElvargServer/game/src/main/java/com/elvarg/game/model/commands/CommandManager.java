@@ -94,6 +94,9 @@ public class CommandManager {
         put(new SpawnNPCCommand(), "npc");
         put(new SpawnPermanentNPCCommand(), "n");
         put(new SpawnObjectCommand(), "object");
+        put(new RemoveObjectCommand(), "removeobject", "delobject");
+        put(new FindObjectCommand(), "findobject", "getobjectid");
+        put(new FindItemCommand(), "finditem", "getitemid");
         put(new PositionDebug(), "coords");
         put(new ConfigCommand(), "config");
         put(new SpecCommand(), "spec");

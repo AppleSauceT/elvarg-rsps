@@ -1,5 +1,6 @@
 package com.runescape;
 
+import com.runescape.cache.def.ObjectDefinition;
 import com.runescape.util.SystemUtils;
 
 import javax.swing.JFrame;
